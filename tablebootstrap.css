@@ -1,0 +1,19 @@
+.table {
+  width: 400px;
+}
+
+
+.table table-bordered{
+    width: 400px;
+}
+
+
+/*In Bootstrap tables, these are the HTML elements supported:
+
+    <table> - Wrapper element for displaying data in a tabular format.
+    <caption> - The title or summary of what the table holds.
+    <thead> - Container element for table header rows that defines headings for table columns.
+    <tbody> - Container element for table rows that defines the body of a table.
+    <tr> - Container element for a set of table cells that appears in a single row.
+    <th> - Special table cell for column headings.
+    <td> - Default table cell for placing data.*/

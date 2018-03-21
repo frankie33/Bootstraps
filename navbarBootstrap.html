@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Bootstrap Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="formbootstrap.css">
+</head>
+
+<body>
+    <h1 align="center">Hello, world!</h1>
+
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li>
+        <a href="#">Messages</a>
+    </li>
+</ul>
+
+
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#">
+            <span class="glyphicon glyphicon-home"></span> Home</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="glyphicon glyphicon-user"></span> Profile</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="glyphicon glyphicon-envelope"></span> Messages</a>
+    </li>
+</ul>
+
+
+<ul class="nav nav-pills">
+    <li class="active">
+        <a href="#">
+            <span class="glyphicon glyphicon-home"></span> Home</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="glyphicon glyphicon-user"></span> Profile</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="glyphicon glyphicon-envelope"></span> Messages</a>
+    </li>
+</ul>
+
+
+<ul class="nav nav-pills nav-stacked">
+    <li class="active">
+        <a href="#">
+            <span class="glyphicon glyphicon-home"></span> Home</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="glyphicon glyphicon-user"></span> Profile</a>
+    </li>
+    <li>
+        <a href="#">
+            <span class="glyphicon glyphicon-envelope"></span> Messages</a>
+    </li>
+</ul>
+
+
+<!--Dropdowns
+
+The four CSS classes used for dropdowns that are required are:
+
+    dropdown
+    dropdown-toggle
+    dropdown-menu
+    caret
+
+In addition to the four class above you will need the following:
+
+    nav
+    nav-tabs or
+    nav-pills
+
+Let's look at an example of the Bootstrap drop-down menu for tabs and pills.-->
+
+
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Messages
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="#">Inbox</a>
+            </li>
+            <li>
+                <a href="#">Drafts</a>
+            </li>
+            <li>
+                <a href="#">Sent Items</a>
+            </li>
+            <li>
+                <a href="#">Trash</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<!--In the code above you'll start with the required nav nav-tabs to set up the navigation. 
+Next, whichever tab you would like to add the dropdown to, you will need to give the 
+<li> element a class of dropdown. Whichever tab you want to dropdown will also need the
+data-toggle="dropdown and class="dropdown-toggle attached to the <a> element.
+Once you have set up your tab to dropdown, you can add the nested unordered list with
+the class dropdown-menu. To get the caret next to the tab that has the dropdown 
+you will need to add the following line <b class="caret"></b>, this lets your users 
+know there is a dropdown attached to that certain tab. To see what the dropdown on a pill 
+style navigation component looks like, simply change the nav-tabs to nav-pills.-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
